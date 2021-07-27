@@ -1,0 +1,70 @@
+#btnred{
+    width: 70px;
+    height: 35px;
+    background: red;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    margin: 3px 5px;
+}
+#btnblue{
+    width: 70px;
+    height: 35px;
+    background: blue;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    margin: 3px 5px;
+}
+#btnyellow{
+    width: 70px;
+    height: 35px;
+    background: yellow;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    margin: 3px 5px;
+}
+table,th,td{
+    padding: 10px;
+    border: 2px solid black;
+    margin: 0px;
+}
+#con{
+    width: 75%;
+    margin: 0 auto;
+    border: 2px solid black;
+    text-align: center;
+}
+#box-row-1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: 2px solid black;
+    padding: 10px;
+    background-color: rgb(59, 128, 47);
+    color: white;
+    height: 350px;
+}
+#box-row-2{
+    background-color: rgb(59, 128, 47);
+    display: flex;
+    justify-content: center;
+}
+#box-row-3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#box-row-1 div{
+    flex: 1;
+    
+}
+#your-box{
+    padding: 10px;
+    border: 2px solid black;
+}
+#dealer-box{
+    padding: 10px;
+    border: 2px solid black;
+}
